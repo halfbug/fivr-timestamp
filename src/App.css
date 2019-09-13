@@ -19,9 +19,9 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -30,4 +30,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.brand-lockup{
+  display: flex;
+  display: -ms-flexbox;
+  height: 72px;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: auto;
+}
+
+.brand-lockup__logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+}
+
+.brand-lockup__title {
+  display: none;
 }
